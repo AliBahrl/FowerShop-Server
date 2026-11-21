@@ -1,0 +1,85 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "stat1Icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "stat1number": {
+      "type": "string"
+    },
+    "stat1label": {
+      "type": "string"
+    },
+    "stat2Icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "stat2label": {
+      "type": "string"
+    },
+    "stat2number": {
+      "type": "string"
+    },
+    "stat3Icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "stat3label": {
+      "type": "string"
+    },
+    "stat3number": {
+      "type": "string"
+    },
+    "stat4label": {
+      "type": "string"
+    },
+    "stat4number": {
+      "type": "string"
+    },
+    "stat4Icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
